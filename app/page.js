@@ -8,8 +8,17 @@ export default function Home() {
         <p className="text-xl text-amber-700 mb-8">
           Track your coffee spending, save money!
         </p>
-        <div className="text-sm text-amber-600">
-          Day 1 - Building in public! 🚀
+        
+        {/* Add this button */}
+        <a 
+          href="/dashboard"
+          className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors"
+        >
+          Start Tracking →
+        </a>
+        
+        <div className="text-sm text-amber-600 mt-6">
+          Day 2 - Quick-log buttons working! 🚀
         </div>
       </div>
     </div>
